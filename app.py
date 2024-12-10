@@ -20,4 +20,5 @@ app.register_blueprint(authentication_blueprint)
 app.register_blueprint(hoots_blueprint)
 app.register_blueprint(comments_blueprint)
 
-app.run()
+if __name__ == '__main__':
+  app.run()
